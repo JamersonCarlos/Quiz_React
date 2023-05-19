@@ -1,0 +1,27 @@
+.questions { 
+    background-color: #8434DE;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.responseQuestion { 
+    border: 1px solid white;
+    background-image: linear-gradient(to right, #6327A5, #915ea8 );
+    color: white;
+}
+
+.options { 
+    background-color: #4A1587;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.options:hover { 
+    background-color: #6f2abe;
+}
