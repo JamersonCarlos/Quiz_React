@@ -1,0 +1,27 @@
+.home { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home > img { 
+    max-width: 700px;
+}
+
+.home > h1,h2 { 
+    color: white;
+}
+
+.home > p { 
+    color: #8435DE;
+}
+
+.home > a { 
+    background-color: #8435DE;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
